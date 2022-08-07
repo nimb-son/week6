@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src:url(../fonts/Roboto-Regular.ttf);
+}
+html{
+    box-sizing: border-box ;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+
+
+body {
+    background-color: #F1F1F1;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 88px 630px 403px 25px 183px 104px 443px 547px 200px;
+}
+
+.first_line {
+    height: 40px;
+    background: #D8BF95;
+    text-align: center;
+    padding: 11px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    grid-column: 1/4;
+
+    color: #000000;
+
+}
+
+nav {
+    display: grid;
+    height: 38px;
+    margin: 10px;
+    grid-column: 1/4;
+    align-content:space-around;
+    grid-template-columns: 20% 20% 20% 20% 10% 5% 5%;
+}
+
+li {
+    
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+    display: inline;
+}
+
+.logo {
+    height: 60px;
+}
+
+.ring {
+    display: grid;
+    grid-template-columns: repeat(3, 480px);
+    justify-content: stretch;
+}
+
+.text_ring1 {
+    height: 18px;
+    padding: 579px 282px 33px 40px;
+    grid-column: 1/2;
+    grid-row: 1/2 ;
+    background: url(../img/Rectangle1.jpg);
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.text_ring2 {
+    height: 18px;
+    padding: 579px 200px 34px 32px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background: url(../img/Rectangle3.png);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.text_ring3 {
+    width: 89px; 
+    height: 630px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 499px 60px 109px 320px; 
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.big_text {
+    display: grid;
+    grid-template-columns: 66.4% 33.6%;
+}
+
+.madein {
+    padding: 116px 0px 31px 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+
+    color: #000000;
+}
+
+.shop {
+    padding: 125px 64px 254px 314px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.spon {
+    padding: 0px 561px 0px 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.new {
+    padding: 153px 0px 60px 64px;
+    display: grid;
+    grid-template-columns: 1096px 1fr;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.stein {
+    display: grid;
+    grid-template-columns: 977px 1fr;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.stein1 {
+    padding: 60px 597px 50px 86px;
+}
+
+.stein2 {
+    padding: 60px 147px 20px 0px;
+}
+
+.stein_photo {
+    margin-left: 60px;
+    display: grid;
+    grid-row: 16/17;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer { 
+    height: 401px;
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 17/18;
+    grid-template-rows: 1fr 1fr;
+
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.top_footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row: 1/2;
+}
+
+.list1 {
+    display: grid;
+    grid-column: 1/2;
+}
+
+.list2 {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.list3 {
+    display: grid;
+    grid-column: 5/6;
+}
+
+.list4 {
+    display: grid;
+    grid-column: 6/7;
+}
+
+.list5 {
+    margin-right: 60px;
+    display: grid;
+    grid-column: 7/8;
+}
+
+.bottom_footer {
+    padding-left: 80px;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
